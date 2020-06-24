@@ -63,7 +63,9 @@ h1:first-letter {
 }
 
 .main-icon {
-    margin-bottom: 12px;
+    margin-bottom: 24px;
+    background-color: #D80404;
+
 }
 
 .profile {
