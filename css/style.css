@@ -8,6 +8,11 @@ body {
     line-height: 0;
 }
 
+.inner {
+  width: 1180px;
+  margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -226,6 +231,12 @@ display: inline;
 /* タブレットサイズ（iPad）&スマフォ */
 
 @media screen and (max-width: 767px) {
+
+  .inner {
+  width: 767px;
+  margin: 0 auto;
+  }
+
   .concept p {
     padding-top: 8px;
     font-size: 12px;
@@ -249,6 +260,9 @@ display: inline;
 
 
 /* スマフォサイズ（iPhoneSE） */
-/* @media screen and (max-width: 320px) {
-
-} */
+@media screen and (max-width: 320px) {
+  .inner {
+  width: 320px;
+  margin: 0 auto;
+  }
+}
