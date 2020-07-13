@@ -65,16 +65,19 @@ h1:first-letter {
 .main-icon {
     margin-bottom: 28px;
     background-color: #D80404;
-
 }
 
 .profile {
     margin-top: 52px;
 }
 
+/* p:nth-child(1) {
+  margin-top: 36px;
+} */
+
 .profile h1 {
     font-size: 24px;
-    margin: 0 auto;
+    margin-bottom: 36px;
 }
 
 .concept p {
